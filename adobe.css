@@ -1,0 +1,300 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+}
+.first{
+    width:100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+   
+
+}
+.first .head{
+    width :37%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+ .first .head .logo{
+   
+    width :25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    
+    
+ }
+ .first .head span{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 1;
+    color: #FA0F00;
+    margin:7px;
+    cursor: pointer;
+
+   
+    /* letter-spacing: 0.5px; */
+}
+
+ .first .head1 {
+    height: 100%;
+    width :37%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    
+    
+ }
+ .first .head1 .sign a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    color:inherit;
+    font-family: none;
+    margin:15px;
+    font-style: normal;
+  
+ }
+ .head1 .sign .search{
+    width :12px;
+   
+ }
+ .main{
+    width:100%;
+   /* position: absolute;
+    display: flex;
+    flex-direction: row; */
+    }
+ 
+ .main .para{
+    position: absolute;
+    z-index: 1;
+    width: 28.8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top:300px;
+    left:350px
+ 
+ }
+ .main .para h3{
+    font-size: 44px;
+    color: #2C2C2C;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    font-weight: 640;
+
+ }
+ .main .para p{
+    letter-spacing: 1px;
+    font-size: 20px;
+    
+ }
+ .main .buy{
+    width:100%;
+}
+.main .buy .buy1{
+    width:150px;
+    height: 50px;
+    position: absolute;
+    top: 250px;
+    color: #2C2C2C;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 200px;
+    padding: 9px 38px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.main .buy .buy2{
+    width:150px;
+    height: 50px;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    color: #2C2C2C;
+    text-decoration: none;
+    background-color: #1473e6;
+    border-radius: 200px;
+    padding: 11px 39px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.main .buy .buy2:hover{
+    background-color: #0d66d0;
+}
+.main .buy .buy1:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+ .main .imgs .small{
+    width: 64px;
+    height: auto;
+    position: absolute;
+    display: flex;
+    top: 200px;
+    left:350px;
+    flex-direction: center;
+    justify-content: center;
+    align-content: center;
+     }
+   .main .imgs .big img{
+    width: 100%;
+    /* height: auto; */
+    /* position: absolute; */
+   }
+   .second{
+    width:100%;
+    height:auto;
+    padding:0 300px;
+    padding-bottom: 80px;
+   
+    border-bottom:10px solid #0d66d0;
+    
+    
+    /* position: relative; */
+   }
+   .second .font h1{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 55px 10px 0 0 ;
+    /* display: flex;
+   position: relative;
+   top: 10px;
+    flex-direction: center;
+    justify-content: center;
+    */
+   }
+   .second  .img2{
+    width :90%;
+    height: auto;
+    display: flex;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+ 
+   
+    /* padding: 0 300px; */
+
+   }
+   .second .img2 img{
+    width:30%;
+  
+
+   }
+   .second .font1 {
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    /* align-content: space-between; */
+
+   
+   }
+   .second .font1 h1{
+    font-size: 20px;
+    font-weight: 700;
+   }
+   .second .font1 p{
+    margin-top: 10px;
+   }
+   .second .font1 .first0{
+    width:30%
+   }
+   .second .font1 .first1{
+    width:30%
+   }
+   .second .font1 .first2{
+    width:30%
+   }
+   .third{
+    width:100%;
+    height: auto;
+   }
+   .third .second1{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    }
+    .third .second1 h1{
+  line-height: 1;
+    }
+    .third .second1 p{
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 0;;
+    }
+    .third .buy3{
+        width:100%;
+        padding: 0 1px 0 800px;
+       
+    
+    }
+    .third .buy3 .buy4{
+        width:150px;
+        height: 50px;
+        /* position: absolute; */
+        top: 250px;
+        color: #2C2C2C;
+        text-decoration: none;
+        border: 2px solid;
+        border-radius: 200px;
+        padding: 9px 38px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    .third .buy3 .buy5{
+        width:100px;
+        height: 50px;
+        /* position: absolute; */
+        top: 250px;
+        left: 200px;
+        color: #2C2C2C;
+        text-decoration: none;
+        background-color: #1473e6;
+        border-radius: 200px;
+        padding: 11px 39px;
+        font-weight: 700;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+    .third .buy3 .buy5:hover{
+        background-color: #0d66d0;
+    }
+    .third .buy3 .buy4:hover{
+        background-color: #000;
+        color: #fff;
+    }
+    .third .sel{
+       margin-left: 200px;
+       margin-top: 150px;
+       border: none;
+       font-size: 12px;
+       margin-bottom: 30px;
+    }
+    .t img{
+        width:50px;
+        z-index: 1;
+        position:fixed;
+       margin-left: 95%;
+      margin-top: 47%;
+    }
